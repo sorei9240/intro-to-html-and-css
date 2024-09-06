@@ -1,8 +1,17 @@
 body {
     background-color: #080c14;
     color: white;
+    margin: 50px;
 }
 
 a {
     color:aquamarine;
+}
+
+img {
+    border-radius: 5%;
+    border: 2px solid skyblue;
+    width: 350px;
+    height: 225px;
+
 }
