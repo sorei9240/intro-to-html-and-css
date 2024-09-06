@@ -1,40 +1,100 @@
 body {
-    background-color: #080c14;
-    color: white;
-    margin: 50px;
-    padding: 20px, 20px, 20px;
-    font-size: large;
+  background-color: #080c14;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.images {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.flying-dragonite {
+  width: 250px;
+  height: 150px;
+  border-radius: 5%;
+  border: 2px solid skyblue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.angry-dragonite {
+  width: 250px;
+  height: 150px;
+  border-radius: 5%;
+  border: 2px solid skyblue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.happy-dragonite {
+  width: 250px;
+  height: 150px;
+  border-radius: 5%;
+  border: 2px solid skyblue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
 }
 
 a {
-    color:aquamarine;
-    font-size: large;
+  color: aquamarine;
+  text-decoration: none;
 }
 
-img {
-    border-radius: 5%;
-    border: 2px solid skyblue;
-    width: 350px;
-    height: 225px;
-
+a:hover {
+  text-decoration: underline;
 }
 
-p {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: justify;
+ul,
+ol {
+  color: rgb(231, 157, 253);
+  padding-left: 20px;
 }
 
-h1, h2, h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: justify;
-
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
 }
 
-ul, ol {
-    color: rgb(231, 157, 253);
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    font-size: 14px;
+  }
 }

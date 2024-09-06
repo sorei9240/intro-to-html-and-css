@@ -1,68 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dragonite</title>
+    <title>Dragonite Pokémon Profile</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <header>
-      <h1>Dragonite</h1>
-    </header>
-    <main>
-      <section>
-        <img src="./dragonite.jpeg" alt="Image of Dragonite flying" />
-      </section>
-      <section>
-        <h2>Pokedex Entry (Yellow Version)</h2>
+      <header>
+        <h1>Dragonite</h1>
+      </header>
+
+      <main class="container">
+        <section class="images">
+          <img
+            src="./dragonite.jpeg"
+            alt="Image of Dragonite flying"
+            class="flying-dragonite"
+          />
+          <img
+            src="./angry-dragonite.jpeg"
+            alt="Angry dragonite in battle"
+            class="angry-dragonite"
+          />
+          <img
+            src="./happy-dragonite.jpeg"
+            alt="Dragonite hugging Ash and Pikachu"
+            class="happy-dragonite"
+          />
+        </section>
+
+        <section class="pokedex-entry">
+          <h2>Pokedex Entry (Yellow Version)</h2>
+          <p>
+            It is said that this POKéMON lives somewhere in the sea and that it
+            flies. However, it is only a rumor.
+          </p>
+        </section>
+
+        <section class="evolution">
+          <h2>Line of Evolution:</h2>
+          <ol>
+            <li>
+              <a
+                href="https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)"
+                >Dratini</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
+                >Dragonair (lvl 30)</a
+              >
+            </li>
+            <li>Dragonite (lvl 55)</li>
+          </ol>
+        </section>
+
+        <section class="moves">
+          <h2>Moves Learned by Leveling Up (Gen 1):</h2>
+          <ul>
+            <li>Agility - lvl 1 & lvl 20</li>
+            <li>Leer - lvl 1</li>
+            <li>Thunder Wave - lvl 1 & lvl 10</li>
+            <li>Wrap - lvl 1</li>
+            <li>Slam - lvl 35</li>
+            <li>Dragon Rage - lvl 45</li>
+            <li>Hyper Beam - lvl 60</li>
+          </ul>
+        </section>
+
+        <section class="catch-info">
+          <h2>Where to Catch</h2>
+          <p>
+            In Yellow Version, Dragonite is only available for capture through
+            trade or by evolving Dragonair, which can be found in the Safari
+            Zone.
+          </p>
+        </section>
+
+        <section class="anime-info">
+          <h2>In the Anime</h2>
+          <p>
+            Dragonite made its first appearance in S1E13 "Mystery at the
+            Lighthouse"
+          </p>
+        </section>
+
+        <section class="fun-facts">
+          <h2>Fun Facts</h2>
+          <ul>
+            <li>Dragonite is 1 of only 4 dragon/flying types in the games</li>
+            <li>Dragnoite is shorter than Dragonair</li>
+            <li>
+              Dragnoite has the second highest base stats out of all the
+              non-legendary Pokemon
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
         <p>
-          It is said that this POKéMON lives somewhere in the sea and that it
-          flies. However, it is only a rumor.
+          Info taken from
+          <a
+            href="https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)"
+            target="_blank"
+            >Bulbapedia</a
+          >
+          and
+          <a
+            href="https://pokemon-archive.fandom.com/wiki/Dragonite"
+            target="_blank"
+            >Azurilland Wiki</a
+          >
         </p>
-        <p>
-          <a href="#moves">Jump to moves</a>
-        </p>
-      </section>
-      <section>
-        <h3>Line of Evolution:</h3>
-        <ol>
-          <li>
-            <a
-              href="https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon)"
-              >Dratini</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
-              >Dragonair (lvl 30)</a
-            >
-          </li>
-          <li>Dragonite (lvl 55)</li>
-        </ol>
-      </section>
-      <section id="moves">
-        <h3>Moves Learned by Leveling Up (Gen 1):</h3>
-        <ul>
-          <li>Agility - lvl 1 & lvl 20</li>
-          <li>Leer - lvl 1</li>
-          <li>Thunder Wave - lvl 1 & lvl 10</li>
-          <li>Wrap - lvl 1</li>
-          <li>Slam - lvl 35</li>
-          <li>Dragon Rage - lvl 45</li>
-          <li>Hyper Beam - lvl 60</li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      Info taken from
-      <a
-        href="https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)"
-        target="_blank"
-        >Bulbapedia</a
-      >
-    </footer>
+      </footer>
   </body>
 </html>
